@@ -5,9 +5,13 @@ The query will gather information related to a specific topic.
 Topic:
 {research_topic}
 
+Keywords:
+{keywords}
+
 Return your query as a JSON object:
 {{
     "query": "string",
+    "keywords": "string",
     "aspect": "string",
     "rationale": "string"
 }}

@@ -1,9 +1,9 @@
 [project]
-name = "ollama-deep-researcher"
+name = "deep-researcher"
 version = "0.0.1"
 description = "Lightweight web research and summarization assistant."
 authors = [
-    { name = "Lance Martin" }
+    { name = "Alberto Forcelius" }
 ]
 readme = "README.md"
 license = { text = "MIT" }

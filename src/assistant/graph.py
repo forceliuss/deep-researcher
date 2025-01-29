@@ -17,7 +17,7 @@ def generate_query(state: SummaryState, config: RunnableConfig):
     """ Generate a query for web search """
     
     # Format the prompt
-    query_writer_instructions_formatted = query_writer_instructions.format(research_topic=state.research_topic)
+    query_writer_instructions_formatted = query_writer_instructions.format(research_topic=state.research_topic, keywords=state.keywords)
 
     # Generate a query
     configurable = Configuration.from_runnable_config(config)
